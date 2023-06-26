@@ -1,0 +1,3 @@
+usar o git reset soft
+
+AJUSTANDO O ARQUIVO
