@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Módulo 1: GIT: Versionamento de código</title>
+</head>
+<body>
+    <h1>Módulo 1: GIT: Versionamento de código</h1>
+    <p>17 aulas</p>
+<pre>
+
+<hr>
+<h3 id="id1">#1: O que é, pra que serve, como funciona? </h3>
+
+<hr>
+<h3 id="id2">#2: Instalando o GIT </h3>
+
+<hr>
+<h3 id="id3">#3: Configurando o GIT </h3>
+
+betosideArena:b7-git-review betoside$ git config -l
+
+credential.helper=osxkeychain
+user.email=betoside@gmail.com
+user.name=Betoside
+core.editor=vscode
+core.repositoryformatversion=0
+core.filemode=true
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+core.precomposeunicode=true
+remote.origin.url=git@github.com:betoside/b7-git-review.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.main.remote=origin
+branch.main.merge=refs/heads/main
+betosideArena:b7-git-review betoside$
+
+<hr>
+<h3 id="id4">#4: Iniciando um repositório </h3>
+git init
+
+<hr>
+<h3 id="id5">#5: Branch, README e Commit </h3>
+
+betosideArena:b7-git-review betoside$ code README.md
+
+git branch
+git add . 
+git commit -m 'msg'
+
+<hr>
+<h3 id="id6">#6: Revertendo Modificações </h3>
+
+betosideArena:b7-git-review betoside$ git  reset --hard 84f1e039e01678e21b413a517d933799f3f1d7c4
+betosideArena:b7-git-review betoside$ rm --help´
+betosideArena:b7-git-review betoside$ rm hard.txt
+betosideArena:b7-git-review betoside$ git log
+betosideArena:b7-git-review betoside$ git reset --soft 84f1e039e01678e21b413a517d933799f3f1d7c4
+<hr>
+<h3 id="id7">#7: Trabalhando com diferentes Branches</h3>
+
+betosideArena:b7-git-review betoside$ git branch sudeste
+betosideArena:b7-git-review betoside$ git branch
+betosideArena:b7-git-review betoside$ git branch sul
+betosideArena:b7-git-review betoside$ git branch norte
+betosideArena:b7-git-review betoside$ git branch leste
+betosideArena:b7-git-review betoside$ git branch
+<hr>
+<h3 id="id8">#8: Diferença entre arquivos</h3>
+
+<hr>
+<h3 id="id9">#9: Criando um repositório no Github</h3>
+
+<hr>
+<h3 id="id10">#10: Conectando repositório local ao remoto</h3>
+
+<hr>
+<h3 id="id11">#11: Fazendo alterações no repositório remoto</h3>
+
+<hr>
+<h3 id="id12">#12: Ignorando arquivos do repositório (gitignore)</h3>
+
+<hr>
+<h3 id="id13">#13: Revertendo sem perder o código (Revert)</h3>
+
+<hr>
+<h3 id="id14">#14: Deletando branches locais e remotos</h3>
+
+<hr>
+<h3 id="id15">#15: Puxando alterações de outras pessoas (pull)</h3>
+
+<hr>
+<h3 id="id16">#16: Clonando repositórios remotos</h3>
+
+<hr>
+<h3 id="id17">#17: Contribuindo com outros repositórios (fork / pull request)</h3>
+</pre>
+</body>
+</html>
