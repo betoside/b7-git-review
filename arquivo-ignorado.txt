@@ -1,0 +1,4 @@
+arquivo-ignorado.txt
+
+
+esse arquivo deverá ser ignorado pelo git.
