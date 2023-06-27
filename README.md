@@ -4,6 +4,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 # alterado no LESTE
 =======
 # alterado
@@ -33,3 +34,8 @@
 >>>>>>> oeste
 =======
 >>>>>>> sudeste
+=======
+# alterado
+
+#edited SUL SOUTH SUL
+>>>>>>> sul
